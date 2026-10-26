@@ -8,6 +8,13 @@ const schema = z.object({
   SUPABASE_URL: z.string().url(),
   SUPABASE_PUBLISHABLE_KEY: z.string().min(1),
   SUPABASE_SECRET_KEY: z.string().min(1),
+  MCP_RESOURCE_URL: z.string().url().default('http://localhost:3000/mcp'),
+  MCP_AUTHORIZATION_SERVER_URL: z.string().url().default('http://localhost:3000/mcp'),
+  MCP_CLIENT_ID: z.string().min(1).default('claude'),
+  MCP_REDIRECT_URI: z.string().url().default('http://localhost:5173/mcp/authorize'),
+  MCP_AUTH_UI_URL: z.string().url().default('http://localhost:5173/mcp/authorize'),
+  REDIS_REST_URL: z.string().url(),
+  REDIS_REST_TOKEN: z.string().min(1),
 });
 
 export type Env = z.infer<typeof schema>;

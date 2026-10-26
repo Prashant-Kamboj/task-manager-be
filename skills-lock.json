@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "add-app-to-server": {
+      "source": "modelcontextprotocol/ext-apps",
+      "sourceType": "github",
+      "skillPath": "plugins/mcp-apps/skills/add-app-to-server/SKILL.md",
+      "computedHash": "4a9008cab1c56e16b9a98375f6b405f6371ee9a6c2304bd0eb247b57d915c52a"
+    },
+    "convert-web-app": {
+      "source": "modelcontextprotocol/ext-apps",
+      "sourceType": "github",
+      "skillPath": "plugins/mcp-apps/skills/convert-web-app/SKILL.md",
+      "computedHash": "a7ba76a4ae80d39aa8e19f8281097fb67477aea89fa90fa0c86fbfbe0f21c5ec"
+    },
+    "create-mcp-app": {
+      "source": "modelcontextprotocol/ext-apps",
+      "sourceType": "github",
+      "skillPath": "plugins/mcp-apps/skills/create-mcp-app/SKILL.md",
+      "computedHash": "e929dfe91c22ec8078d48dd35f0350d6796c41aa7d597ebb6dff3e8384b2c3eb"
+    },
+    "migrate-oai-app": {
+      "source": "modelcontextprotocol/ext-apps",
+      "sourceType": "github",
+      "skillPath": "plugins/mcp-apps/skills/migrate-oai-app/SKILL.md",
+      "computedHash": "de7efc510078320e126b6b0af3c023d88b98e7c6498fbb8bf93b3daecde0f4d3"
+    }
+  }
+}
